@@ -1,0 +1,108 @@
+/* Reset básico e fontes */
+body {
+    font-family: 'Georgia', serif;
+    /* Uma fonte clássica e elegante */
+    margin: 0;
+    padding: 0;
+    background-color: #fdeef4;
+    /* Um rosa bem clarinho */
+    color: #333;
+    /* Cor do texto principal */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #e4717a;
+    /* Um tom de rosa/vermelho suave */
+    color: #fff;
+    /* Texto branco no cabeçalho */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    /* Uma fonte mais 'escrita' para o título - precisa importar ou usar fontes web */
+    /* Para usar 'Dancing Script', adicione no <head> do HTML:
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    */
+    font-size: 2.5rem;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    /* Remove marcadores da lista */
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    /* Coloca os itens lado a lado */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    /* Cor dos links */
+    text-decoration: none;
+    /* Remove sublinhado */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 800px;
+    /* Limita a largura do conteúdo */
+    margin: 20px auto;
+    /* Centraliza o conteúdo na página */
+    padding: 20px;
+    background-color: #fff;
+    /* Fundo branco para a área de conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Uma sombra suave */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+}
+
+main h2 {
+    color: #c2185b;
+    /* Um rosa mais forte para subtítulos */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo básico para imagens (opcional) */
+main img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse o container */
+    height: auto;
+    display: block;
+    /* Para centralizar com margem automática */
+    margin: 15px auto;
+    /* Espaçamento e centralização */
+    border-radius: 5px;
+    /* Bordas levemente arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    color: #666;
+    /* Cor de texto mais suave */
+    font-size: 0.9em;
+}
