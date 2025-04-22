@@ -11,6 +11,22 @@ body {
     line-height: 1.6;
 }
 
+.momento img {
+    width: 350px;
+    /* Garante que a imagem não ultrapasse o container */
+    height: auto;
+    display: block;
+    /* Para centralizar com margem automática */
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    /* Centraliza a imagem */
+    border-radius: 5px;
+    /* Bordas levemente arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 /* Cabeçalho */
 header {
     background-color: #e4717a;

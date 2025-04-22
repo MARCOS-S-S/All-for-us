@@ -1,44 +1,105 @@
-<h2>Nossa História de Amor</h2>
+<!DOCTYPE html> !! FALTANDO !! - Define o tipo de documento -->
+<html lang="pt-BR"> !! FALTANDO !! - Tag raiz do HTML -->
 
-<p><em>Foi tudo tão complicado, acho que entre nós nunca poderia ser fácil.</em></p>
+<head> !! FALTANDO !! - Seção de metadados e links -->
+    <meta charset="UTF-8"> !! FALTANDO !! - Codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> !! FALTANDO !! - Configuração para
+    responsividade -->
 
-<hr>
-<section class="momento">
-    <h3>O Dia em que Nossos Caminhos se Cruzaram</h3>
-    <p class="data">04/10/2021</p>
-    <p>
+    !! IMPORTANTE !! - Defina um título específico para esta página -->
+    <title>Nossa História - Para Meu Amor</title>
 
-    </p>
-</section>
+    !! IMPORTANTE !! - Link para o seu arquivo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 
-<hr>
+<body> !! FALTANDO !! - Tag de abertura do corpo da página -->
 
-<section class="momento">
-    <h3>O Começo do Namoro</h3>
-    <p class="data"></p>
-    <p>
-    </p>
-</section>
+    <header>
+        <h1>Um Site Especial Para Você</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="historia.html">Nossa História</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="razoes.html">Por Que Te Amo</a></li>
+                <li><a href="planos.html">Nossos Planos</a></li>
+            </ul>
+        </nav>
+    </header>
+    !! SUGESTÃO !! - Envolver o conteúdo principal na tag <main> -->
+        <main>
+            <h2>Nossa História de Amor</h2>
 
-<hr>
+            <p><em>Foi tudo tão complicado, acho que entre nós nunca poderia ser fácil.</em></p>
 
-<section class="momento">
-    <h3>Nossa Primeira Viagem Juntos</h3>
-    <p class="data">[Data da viagem]</p>
-    <img src="img/viagem_tal.jpg" alt="Nós em [Lugar]">
-    <p>
+            <hr>
 
-    </p>
-</section>
+            <section class="momento">
+                <h3>O Dia em que Nossos Caminhos se Cruzaram</h3>
+                <p class="data">04/10/2021</p>
+                <p>
+                </p>
+            </section>
 
-<hr>
+            <hr>
 
-<section class="momento">
-    <h3>E Hoje...</h3>
-    <p class="data">[Data atual, ex: Abril de 2025]</p>
-    <p>
-        [Um parágrafo final falando sobre o presente. Como vocês estão agora, reafirmando seu amor e talvez fazendo um
-        gancho para a página de 'Planos Futuros'. Ex: "Depois de tantas histórias, nosso amor só cresce..."]
-    </p>
-    <img src="img/PXL_20241027_195334630.jpg" alt="Nós hoje">
-</section>
+            <section class="momento">
+                <h3>O Começo do Namoro</h3>
+                <p class="data">[Data do início do namoro]</p>
+                <p>
+                </p>
+            </section>
+
+            <hr>
+
+            <section class="momento">
+                <h3>Nossa Primeira Viagem Juntos</h3>
+                <p class="data">[Data da viagem]</p> <img src="img/viagem_tal.jpg" alt="Nós em [Lugar]">
+                <p>
+                </p>
+            </section>
+
+            <hr>
+
+            <section class="momento">
+                <h3>E Hoje...</h3>
+                <p class="data">22 de Abril de 2025</p>
+                <p>
+                    [Um parágrafo final falando sobre o presente...]
+                </p>
+                <img src="img/PXL_20241027_195334630.jpg" alt="Nós hoje">
+            </section>
+        </main> !! SUGESTÃO !! - Fechamento da tag <main> -->
+
+            !! IMPORTANTE !! - Adicione o rodapé aqui também -->
+            <footer>
+                <p>Feito com todo meu amor por [Seu Nome]</p>
+                <p>&copy; 2025</p>
+            </footer>
+
+</body>
+
+</html> ```
+
+**Resumo das Correções e Pontos de Atenção:**
+
+1. **Estrutura Base:** Adicionei `
+<!DOCTYPE html>`, `<html>`, `
+
+<head>` (com `meta` tags, `title` e o link para o CSS) e a tag `
+
+<body>` no início.
+    2. **Tag `<main>`:** Envolvi todo o conteúdo principal (desde `<h2>Nossa História...` até a última `</section>`) com
+            as tags `<main>` e `</main>`. Isso é bom para organização e semântica.
+            3. **Rodapé `<footer>`:** Adicionei o rodapé no final, antes de fechar o `</body>`. Assim como o header, o
+footer também deve aparecer em todas as páginas.
+4. **Conteúdo:** Lembre-se de preencher os textos descritivos dentro das tags `<p>` onde ainda estão vazias ou com
+    placeholders `[...]`.
+    5. **Imagens:** Verifique se os caminhos (`src`) das imagens estão corretos e se as imagens existem na pasta `img`.
+    Atualize também o texto alternativo (`alt`) para descrever cada imagem.
+    6. **Título da Página `<title>`:** É bom dar um título específico para cada página, ele aparece na aba do navegador.
+
+        Com essa estrutura completa, seu arquivo `historia.html` estará correto, carregará os estilos do `styles.css` e
+        terá o cabeçalho (menu) e o rodapé visíveis. Faça o mesmo tipo de verificação estrutural para os outros arquivos
+        HTML (`galeria.html`, `razoes.html`, `planos.html`).
